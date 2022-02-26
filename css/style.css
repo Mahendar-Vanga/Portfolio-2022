@@ -884,12 +884,12 @@ footer{
     }
     .container-div .imp-links ul li a{
         font-size: 1.8vh;
-        display: none;
+        display: flex;
 
     }
     .sci-links ul li a i{
         font-size: 1.3em;
-        display: none;
+        display: block;
 
     }
     /* ============designed by div container============ */
