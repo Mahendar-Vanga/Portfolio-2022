@@ -202,7 +202,7 @@
     }
     .content-container .svg-two-div-container .works-content-container .repo-card-div{
         width:auto;
-        max-height: 30vh;
+        height: 50vh;
     }
     /* ============== inner div card stying============== */
     .repo-card-div .repo-name-div .repo-name{
