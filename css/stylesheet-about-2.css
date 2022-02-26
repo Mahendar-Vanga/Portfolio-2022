@@ -1,0 +1,332 @@
+
+#About{
+    padding: 0;
+}
+#About-section{
+    padding: 10px;
+    grid-row-gap: 10px;
+}
+
+
+/* =========== profile section inner div styling strat here =========== */
+
+.profile-container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    margin-top: -50px;
+}
+/* ============ img div styling ============ */
+.profile-container .img-profile-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 5px;
+}
+.profile-container .img-profile-div img{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+/* ============== TEXT HEADING AND PARA STYLING ========== */
+.profile-container .profile-details-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-container .profile-details-container .heading-text{
+    font-size: 2.2em;
+    font-weight: 800;
+    color: salmon;
+    margin: 10px;
+}
+.profile-container .profile-details-container p{
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 600;
+    color: #000;
+    margin: 10px;
+    width: 70%;
+}
+/* ==================== PROFILE DETAILS LIST STYLING ========== */
+.profile-container .profile-details-container .details-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 50vw;
+    height: 20vh;
+    max-height: 30vh;
+    grid-auto-flow: column;
+    place-items: center;
+    padding: 10px;
+}
+.profile-container .profile-details-container .details-lists ul{
+    width: 100%;
+    height: 100%;
+
+}
+.profile-container .profile-details-container .details-lists ul li{
+    width: 80%;
+    margin: 10px;
+    color: salmon;
+}
+/* ================= end of the frist profile-container div========== */
+/* =================== skills container div styling================ */
+.skills-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 45% 60%;
+    grid-auto-flow: column;
+    place-items: center;
+    padding: 10px;
+    margin-top: -140px;
+}
+
+/* ================= skills svg div styling================= */
+.svg-skills-div{
+    width: 100%;
+    height: 60vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 30px;
+}
+#Profile-skills-svg{
+    width: 80%;
+    height: 80%;
+}
+/* ============= skills progress bars div styling ============= */
+.skills-progrece-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+.skills-progrece-container h1{
+    font-size: 2.2em;
+    font-weight: 800;
+    color: salmon;
+    margin: 10px;
+}
+/* ======== skills list container ============= */
+.skills-progrece-container .list-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 20% 20%;
+    padding: 10px;
+}
+.skills-progrece-container .list-container li{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+/* =========== SKILLS LABEL STLING ============ */
+.skills-progrece-container .list-container li label{
+    width: 80%;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
+    justify-content: space-between;
+}
+.skills-progrece-container .list-container li label span{
+    
+    float: right;
+    font-weight: 600;
+    color: salmon;
+}
+/* ================= progress BAR STYLING ============== */
+.skills-progrece-container .list-container li progress{
+    width: 90%;
+}
+/* =========================== RESUME CONTAINER STYLING STRAT HERE ============== */
+.resume-contaier{
+    margin-top: 20px;
+    display: grid;
+    width: 80%;
+    height: 50vh;
+    left: -50px;
+    padding: 30px;
+    margin-left: 0;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
+    place-items: center;
+    position: relative;
+}
+/* ================= sgv education container ============== */
+.resume-contaier .svg-edu-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#edu-svg{
+    width: 80%;
+    height: 80%;
+}
+/* ================= time line div container============== */
+.resume-contaier .timline-div
+{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-rows: 10% 45% 45%;
+}
+/* =========== befor and after styling for timeling========== */
+.resume-contaier .timline-div .edu-content-container::before
+{   
+    content: " ";
+    display: flex;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left:  -29px;
+    border-radius: 50%;
+    border: 3px solid salmon;
+    margin-top: -13px;
+    top: -2PX;
+
+}
+
+
+.resume-contaier .timline-div .edu-content-container{
+    width: 100%;
+    border-left: 3px solid #001C55;
+    padding-left: 20px;
+    height: 100%;
+    margin: 10px;
+}
+.resume-contaier .timline-div .edu-content-container:nth-child(3n){
+    height: 85%;
+}
+/* ================== main heading eductoin and expirence styling ============== */
+#education-heading-span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: salmon;
+    font-size: 1.7em;
+    position: relative;
+    height: 50px;
+    text-transform: uppercase;
+}
+/* ============== Education details container div styling===================== */
+.resume-contaier .timline-div .edu-content-container .edu-details{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #A6E1FA;
+    position: relative;
+    border-radius: 6px;
+    top: -10px;
+    padding: 10px;
+}
+/* ============ heading of education div ============== */
+.resume-contaier .timline-div .edu-content-container .edu-details h3{
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #001C55;
+}
+/* ========================= duration of course div ================================= */
+.resume-contaier .timline-div .edu-content-container .edu-details h5{
+    width: 120px;
+    background: rgba(250,128,114,0.3);
+    color: salmon;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1em;
+    border-radius: 3px;
+}
+.resume-contaier .timline-div .edu-content-container .edu-details h4{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #001C55;
+
+
+}
+/* ================================= pargragh ======================= */
+.resume-contaier .timline-div .edu-content-container .edu-details p{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: salmon;
+}
+
+@media (max-width: 768px){
+
+    /* ================== about section styling ============== */
+    #About-section {
+        padding: 5px;
+        width: 100%;
+        background: #001C55;
+
+        
+    }
+    /* ==================== profile container styling ============= */
+    .profile-container{
+        grid-auto-flow: row;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        width: 100%;
+        padding: 0;
+        grid-row-gap: 5px;
+        height: 130vh;
+        margin-top: 20px;
+    }
+    /* =========== profile img div stylings==================== */
+    .profile-container .img-profile-div{
+        padding: 10px;
+        margin: 2px;
+    }
+    .profile-container .img-profile-div img{
+        width: 70%;
+        margin-left: -60px;
+    }
+    /* =====================profile details container div ================ */
+    .profile-details-container{
+        padding: 5px;
+        width: 80%;
+    }
+    .profile-container .profile-details-container .heading-text{
+        font-size: 5vw;
+    }
+
+    .skills-container{
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,254 @@
+#work-color{
+    height: 280vh;
+}
+#MyWorks{
+    background: #EDF9FE;
+    height: 90%;
+    padding: 0;
+}
+#MyWorks-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+.content-container{
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    place-items: center;
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+
+}
+/* ============== About my works div styling strat here ============= */
+
+.content-container .svg-div-container,.content-container .svg-two-div-container{
+    width: 85%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: 1fr;
+    place-items: center;
+    grid-column-gap: 20px;
+    grid-auto-flow: row;
+
+}
+/* ============svg stylings here============ */
+#svg-work-one,#svg-work-two{
+    width: 90%;
+    height: 90%;
+}
+
+/* ============== my works div styling strat here ============= */
+.second-svg-div{
+    overflow: hidden;
+}
+.content-container .svg-two-div-container{
+    grid-template-columns: 40% 60%;
+
+}
+.contact-heading-text-div,.works-content-container{
+    width: 100%;
+    height: 100%;
+
+}
+/* =============== about text heading styling========= */
+.About-heading-text-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.About-heading-text-div .contact-heading-text{
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.About-heading-text-div .contact-header-detail-text{
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 30px;
+}
+/* ============= main heading in div ========== */
+.works-content-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.repo-card-div:hover{
+    box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+/* ============= text heading container======= */
+.contact-heading-text-div .contact-heading-text{
+    text-align: center;
+    font-size: 2em;
+}
+.works-content-container .repo-card-div{
+    border-radius: 8px;
+    display: block;
+    padding: 20px;
+    max-height: 30vh;
+    height: auto;
+}
+    /* =================== caption styling=========== */
+.repo-card-div .repo-name-div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.repo-card-div .repo-name-div .repo-name{
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-left: 4%;
+}
+/* =============== description styling=========== */
+.repo-card-div .repo-description{
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 10px;
+}
+/* ========== svg tech icons styling============ */
+.repo-card-div .repo-details{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.repo-card-div .repo-details .subTitle{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.repo-card-div .repo-details .software-skills-main-div{
+    float: right;
+    width: 120px;
+}
+.repo-card-div .repo-details .software-skills-main-div ul{
+    display: flex;
+}
+.repo-card-div .repo-details .software-skills-main-div ul li{
+    list-style: none;
+    margin: 4px;
+    width: 100%;
+    height: auto;
+}
+.repo-card-div .repo-details .software-skills-main-div ul li>svg{
+    width: 100%;
+    height: 100%;
+}
+/* ============= Starting of Responsive for works page ============= */
+@media (max-width:768px){
+    /* =========== works container styling============== */
+    #MyWorks{
+        background: #EDF9FE;
+        height: 200vh;
+        padding: 0;
+    }
+    .sapce-div{
+        height: 50vh;
+    }
+    /* =========section styling ============= */
+    #MyWorks-section{
+        height: 100%;
+    }
+    /* ============== svg frist div styling=============== */
+    #My-works-heading{
+        font-size: 4.8em;
+    }
+    #svg-work-one,#svg-work-two{
+        height: 40vh;
+        width: 40vh;
+    }
+    .content-container{
+        height: 100%;
+        overflow: none;
+        grid-template-rows: none;
+    }
+    /* =============svg container stylings================= */
+    .content-container .svg-div-container,.content-container .svg-two-div-container{
+        grid-template-rows: 60% 40%;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .content-container .svg-two-div-container{
+       margin-top: -300px;
+    }
+    /* =============== svg second inner styling============== */
+    .About-heading-text-div{
+        margin-top: -140px;
+    }
+    .About-heading-text-div .contact-heading-text,.content-container .svg-two-div-container .second-svg-div>h1{
+        font-size: 2em;
+        font-weight: 800;
+        color: salmon;
+        margin-bottom: 40px;
+    }
+    .About-heading-text-div .contact-header-detail-text{
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .content-container .svg-two-div-container .second-svg-div{
+        grid-area: 2;
+    }
+    .content-container .svg-two-div-container .works-content-container .repo-card-div{
+        width:auto;
+        max-height: 30vh;
+    }
+    /* ============== inner div card stying============== */
+    .repo-card-div .repo-name-div .repo-name{
+        font-size: 1em;
+        font-weight: 800;
+        margin-left: 4%;
+    }
+    /* =============== description styling=========== */
+    .works-content-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        top: -20px;
+
+    }
+
+    .repo-card-div .repo-description{
+        font-size: 0.8em;
+        font-weight: 500;
+        padding: 5px;
+    }
+    /* ================== card heading stying================ */
+    .repo-card-div .repo-details .subTitle{
+        font-size: 0.6em;
+        width: 50%;
+        font-weight: 500;
+    }
+    .repo-card-div .repo-details .software-skills-main-div{
+        float: right;
+        width: 150px;
+        margin-left: 10%;
+    }
+    /* ========= techonology SVG stylings ============ */
+    .repo-card-div .repo-details .software-skills-main-div ul li{
+        list-style: none;
+        margin: 2px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .repo-card-div .repo-details .software-skills-main-div ul li>svg{
+        width: 80%;
+        height: 80%;
+    }
+
+    }
