@@ -96,6 +96,7 @@
     display: block;
     padding: 20px;
     height: auto;
+    max-height:30vh;
 }
     /* =================== caption styling=========== */
 .repo-card-div .repo-name-div{
@@ -202,6 +203,7 @@
     .content-container .svg-two-div-container .works-content-container .repo-card-div{
         width:auto;
         height: 50vh;
+        max-height:none;
     }
     /* ============== inner div card stying============== */
     .repo-card-div .repo-name-div .repo-name{
