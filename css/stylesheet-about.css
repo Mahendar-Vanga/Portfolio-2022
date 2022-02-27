@@ -309,8 +309,10 @@
     #About-section{
         grid-auto-flow: column;
         width:90%;
+        padding :0px;
     }
     .container-divs{
+        width:90%;
         grid-template-columns: 85%;
         grid-template-rows: 40% 60%;
     }
@@ -536,10 +538,12 @@
         padding: 10px;
         z-index:99;
         margin: 2px;
+        margin-bottom:20px;
     }
     .edu-content-container:nth-child(3) .edu-details{
         margin-top: 80px;
         height: 55vh;
+        margin-bottom:0px; 
     }
     /* ================================= heading of eduaction ======================== */
     .edu-content-container .edu-details>h3{
