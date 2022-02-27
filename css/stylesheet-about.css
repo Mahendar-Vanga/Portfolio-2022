@@ -308,7 +308,7 @@
     }
     #About-section{
         grid-auto-flow: column;
-        
+        width:90%;
     }
     .container-divs{
         grid-template-columns: 85%;
