@@ -281,7 +281,8 @@
     }
     /* =============== contatact section container================ */
     #Contact{
-        height: 170vh;
+        height: 190vh;
+        padding-bottom:20px;
     }
     /* ============= svg styling ================ */
     #contact-svg{
@@ -336,13 +337,13 @@
         height: 100%;
     }
     .resume-btn-div>div>.main-button{
-        font-size:calc(2.5vh + 10%);
+        font-size:1em;
         text-align: center;
         width: 100%;
     }
     /* ====================form container detail div styling================ */
     .email-div{
-        margin-top: 0px;
+        margin-top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -382,11 +383,11 @@
         justify-content: center;
         align-items: center;
         padding-top: 20px;
-        transition: display 1s;
+        transition: display 2s;
     }
     /* ======================= input and textarea styling ================== */
     .content-container .form-emailMe-container form input,.content-container .form-emailMe-container form textarea{
-        width: 90%;
+        width: 100%;
         padding-left: 5px;
         margin: 2px;
         transition: border 1s;
