@@ -304,7 +304,7 @@
 @media (max-width:768px){
     #About{
         padding-bottom: 100px;
-        height:460vh;
+        height:470vh;
     }
     #About-section{
         grid-auto-flow: column;
@@ -316,6 +316,7 @@
     }
     .profile-container{
         margin-top: -100px;
+        width: 100%;
     }
     /* ================= .proflie-img-container div styling =========== */
     .container-divs .proflie-img-container
@@ -534,7 +535,7 @@
         margin: 2px;
     }
     .edu-content-container:nth-child(3) .edu-details{
-        margin-top: 20px;
+        margin-top: 60px;
         height: 55vh;
     }
     /* ================================= heading of eduaction ======================== */
