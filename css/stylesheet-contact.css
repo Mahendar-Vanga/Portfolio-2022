@@ -281,7 +281,7 @@
     }
     /* =============== contatact section container================ */
     #Contact{
-        height: 190vh;
+        height: 200vh;
         padding-bottom:20px;
     }
     /* ============= svg styling ================ */
@@ -369,7 +369,7 @@
     color: white;
     font-size: 0.8em;
     position: relative;
-    top: -20px;
+    margin-top: -50px;
     }
 
     /* ========================= form styling==================== */
