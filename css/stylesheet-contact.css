@@ -428,18 +428,8 @@
     }
     /* ============== img for form toggle =============== */
     .content-container .form-img-container{
-        width: 80%;
-        height: auto;
-        content: url(/assets/images/cover5.png);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: -100px;
-        transition: display 1s;
-        margin: 0px;
-        padding: 0px;
-
+        display: none;
+      
 
     }
 
